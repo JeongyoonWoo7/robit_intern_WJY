@@ -1,0 +1,3 @@
+/home/jy/intern_ws/day1_hw3/build/CMakeFiles/test.dir
+/home/jy/intern_ws/day1_hw3/build/CMakeFiles/edit_cache.dir
+/home/jy/intern_ws/day1_hw3/build/CMakeFiles/rebuild_cache.dir
