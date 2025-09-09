@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g CMakeFiles/test.dir/src/main.cpp.o CMakeFiles/test.dir/src/Calculation.cpp.o -o test 

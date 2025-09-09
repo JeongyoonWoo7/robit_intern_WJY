@@ -1,0 +1,3 @@
+/home/jy/robit_intern_WJY/QT&C++/day1/hw1/build/Desktop-Debug/CMakeFiles/test.dir
+/home/jy/robit_intern_WJY/QT&C++/day1/hw1/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/jy/robit_intern_WJY/QT&C++/day1/hw1/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
