@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg
+CMAKE_SOURCE_DIR = /home/jy/colcon_ws/src/my_first_ros_rclcpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg
+CMAKE_BINARY_DIR = /home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg
 
 # Utility rule file for my_first_ros_rclcpp_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/progress.make
 
 CMakeFiles/my_first_ros_rclcpp_pkg_uninstall:
-	/usr/bin/cmake -P /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/codegen:
 .PHONY : CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/clean
 
 CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/depend:
-	cd /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jy/colcon_ws/src/my_first_ros_rclcpp_pkg /home/jy/colcon_ws/src/my_first_ros_rclcpp_pkg /home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg /home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg /home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir/depend
 

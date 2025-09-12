@@ -1,0 +1,18 @@
+[0.298s] Invoking command in '/home/jy/colcon_ws/build/my_first_python_pkg': PYTHONPATH=/home/jy/colcon_ws/build/my_first_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/colcon_ws/install/my_first_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jy/colcon_ws/build/my_first_python_pkg/build --no-deps symlink_data
+[0.427s] running develop
+[0.496s] running egg_info
+[0.496s] writing my_first_python_pkg.egg-info/PKG-INFO
+[0.496s] writing dependency_links to my_first_python_pkg.egg-info/dependency_links.txt
+[0.496s] writing entry points to my_first_python_pkg.egg-info/entry_points.txt
+[0.496s] writing requirements to my_first_python_pkg.egg-info/requires.txt
+[0.496s] writing top-level names to my_first_python_pkg.egg-info/top_level.txt
+[0.497s] reading manifest file 'my_first_python_pkg.egg-info/SOURCES.txt'
+[0.497s] writing manifest file 'my_first_python_pkg.egg-info/SOURCES.txt'
+[0.498s] running build_ext
+[0.498s] Creating /home/jy/colcon_ws/install/my_first_python_pkg/lib/python3.10/site-packages/my-first-python-pkg.egg-link (link to .)
+[0.499s] Installing publisher script to /home/jy/colcon_ws/install/my_first_python_pkg/lib/my_first_python_pkg
+[0.499s] Installing subscriber script to /home/jy/colcon_ws/install/my_first_python_pkg/lib/my_first_python_pkg
+[0.499s] 
+[0.499s] Installed /home/jy/colcon_ws/build/my_first_python_pkg
+[0.499s] running symlink_data
+[0.518s] Invoked command in '/home/jy/colcon_ws/build/my_first_python_pkg' returned '0': PYTHONPATH=/home/jy/colcon_ws/build/my_first_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/colcon_ws/install/my_first_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jy/colcon_ws/build/my_first_python_pkg/build --no-deps symlink_data

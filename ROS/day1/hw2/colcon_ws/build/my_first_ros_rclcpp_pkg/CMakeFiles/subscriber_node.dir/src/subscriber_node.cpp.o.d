@@ -1,7 +1,7 @@
 CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o: \
- /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/subscriber_node.cpp \
+ /home/jy/colcon_ws/src/my_first_ros_rclcpp_pkg/src/subscriber_node.cpp \
  /usr/include/stdc-predef.h \
- /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/include/my_first_ros_rclcpp_pkg/subscriber_node.hpp \
+ /home/jy/colcon_ws/src/my_first_ros_rclcpp_pkg/include/my_first_ros_rclcpp_pkg/subscriber_node.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

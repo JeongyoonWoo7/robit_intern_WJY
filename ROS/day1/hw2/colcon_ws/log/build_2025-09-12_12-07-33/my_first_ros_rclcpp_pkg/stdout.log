@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
-[ 75%] [1m[32mLinking CXX executable subscriber_node[0m
-[ 75%] Built target subscriber_node

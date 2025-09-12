@@ -1,8 +1,8 @@
-# Install script for directory: /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg
+# Install script for directory: /home/jy/colcon_ws/src/my_first_ros_rclcpp_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/jy/colcon_ws/install/my_first_ros_rclcpp_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg/publisher_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg" TYPE EXECUTABLE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/publisher_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg" TYPE EXECUTABLE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/publisher_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg/publisher_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg/publisher_node")
     file(RPATH_CHANGE
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/publisher_node.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/publisher_node.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg/subscriber_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg" TYPE EXECUTABLE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/subscriber_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg" TYPE EXECUTABLE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/subscriber_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg/subscriber_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_ros_rclcpp_pkg/subscriber_node")
     file(RPATH_CHANGE
@@ -87,15 +87,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/subscriber_node.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/subscriber_node.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,7 +103,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg/environment" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg/environment" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -111,48 +111,48 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg/environment" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg/environment" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg/cmake" TYPE FILE FILES
-    "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig.cmake"
-    "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig-version.cmake"
+    "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig.cmake"
+    "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_first_ros_rclcpp_pkg" TYPE FILE FILES "/home/jy/colcon_ws/src/my_first_ros_rclcpp_pkg/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/install_local_manifest.txt"
+  file(WRITE "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -168,6 +168,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/jy/colcon_ws/build/my_first_ros_rclcpp_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

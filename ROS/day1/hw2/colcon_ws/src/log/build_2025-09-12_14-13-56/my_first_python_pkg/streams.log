@@ -1,0 +1,18 @@
+[0.318s] Invoking command in '/home/jy/ros2/colcon_ws/src/build/my_first_python_pkg': PYTHONPATH=/home/jy/ros2/colcon_ws/src/build/my_first_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/ros2/colcon_ws/src/install/my_first_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jy/ros2/colcon_ws/src/build/my_first_python_pkg/build --no-deps symlink_data
+[0.451s] running develop
+[0.521s] running egg_info
+[0.521s] writing my_first_python_pkg.egg-info/PKG-INFO
+[0.521s] writing dependency_links to my_first_python_pkg.egg-info/dependency_links.txt
+[0.521s] writing entry points to my_first_python_pkg.egg-info/entry_points.txt
+[0.521s] writing requirements to my_first_python_pkg.egg-info/requires.txt
+[0.521s] writing top-level names to my_first_python_pkg.egg-info/top_level.txt
+[0.522s] reading manifest file 'my_first_python_pkg.egg-info/SOURCES.txt'
+[0.523s] writing manifest file 'my_first_python_pkg.egg-info/SOURCES.txt'
+[0.523s] running build_ext
+[0.523s] Creating /home/jy/ros2/colcon_ws/src/install/my_first_python_pkg/lib/python3.10/site-packages/my-first-python-pkg.egg-link (link to .)
+[0.524s] Installing publisher script to /home/jy/ros2/colcon_ws/src/install/my_first_python_pkg/lib/my_first_python_pkg
+[0.524s] Installing subscriber script to /home/jy/ros2/colcon_ws/src/install/my_first_python_pkg/lib/my_first_python_pkg
+[0.524s] 
+[0.524s] Installed /home/jy/ros2/colcon_ws/src/build/my_first_python_pkg
+[0.524s] running symlink_data
+[0.545s] Invoked command in '/home/jy/ros2/colcon_ws/src/build/my_first_python_pkg' returned '0': PYTHONPATH=/home/jy/ros2/colcon_ws/src/build/my_first_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/ros2/colcon_ws/src/install/my_first_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jy/ros2/colcon_ws/src/build/my_first_python_pkg/build --no-deps symlink_data

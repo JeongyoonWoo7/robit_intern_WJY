@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating my_first_python_pkg.egg-info
+writing my_first_python_pkg.egg-info/PKG-INFO
+writing dependency_links to my_first_python_pkg.egg-info/dependency_links.txt
+writing entry points to my_first_python_pkg.egg-info/entry_points.txt
+writing requirements to my_first_python_pkg.egg-info/requires.txt
+writing top-level names to my_first_python_pkg.egg-info/top_level.txt
+writing manifest file 'my_first_python_pkg.egg-info/SOURCES.txt'
+reading manifest file 'my_first_python_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_first_python_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jy/colcon_ws/install/my_first_python_pkg/lib/python3.10/site-packages/my-first-python-pkg.egg-link (link to .)
+Installing publisher script to /home/jy/colcon_ws/install/my_first_python_pkg/lib/my_first_python_pkg
+Installing subscriber script to /home/jy/colcon_ws/install/my_first_python_pkg/lib/my_first_python_pkg
+
+Installed /home/jy/colcon_ws/build/my_first_python_pkg
+running symlink_data
+creating /home/jy/colcon_ws/install/my_first_python_pkg/share/ament_index
+creating /home/jy/colcon_ws/install/my_first_python_pkg/share/ament_index/resource_index
+creating /home/jy/colcon_ws/install/my_first_python_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/jy/colcon_ws/build/my_first_python_pkg/resource/my_first_python_pkg -> /home/jy/colcon_ws/install/my_first_python_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/jy/colcon_ws/build/my_first_python_pkg/package.xml -> /home/jy/colcon_ws/install/my_first_python_pkg/share/my_first_python_pkg

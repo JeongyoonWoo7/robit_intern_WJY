@@ -3,15 +3,15 @@
 MySubscriberNode::MySubscriberNode() : Node("cpp_subscriber")
 {
     sub_int_ = this->create_subscription<std_msgs::msg::Int32>(
-        "int_topic", 10,
+        "topic_int", 10,
         std::bind(&MySubscriberNode::int_callback, this, std::placeholders::_1));
 
     sub_str_ = this->create_subscription<std_msgs::msg::String>(
-        "string_topic", 10,
+        "topic_str", 10,
         std::bind(&MySubscriberNode::string_callback, this, std::placeholders::_1));
 
     sub_float_ = this->create_subscription<std_msgs::msg::Float32>(
-        "float_topic", 10,
+        "topic_float", 10,
         std::bind(&MySubscriberNode::float_callback, this, std::placeholders::_1));
 }
 

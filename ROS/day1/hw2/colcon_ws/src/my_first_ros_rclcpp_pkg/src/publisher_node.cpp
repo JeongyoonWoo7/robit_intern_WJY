@@ -3,9 +3,9 @@
 
 MyPublisherNode::MyPublisherNode() : Node("publisher_node"), count_(0)
 {
-    pub_int_ = this->create_publisher<std_msgs::msg::Int32>("int_topic", 10);
-    pub_str_ = this->create_publisher<std_msgs::msg::String>("string_topic", 10);
-    pub_float_ = this->create_publisher<std_msgs::msg::Float32>("float_topic", 10);
+    pub_int_ = this->create_publisher<std_msgs::msg::Int32>("topic_int", 10);
+    pub_str_ = this->create_publisher<std_msgs::msg::String>("topic_str", 10);
+    pub_float_ = this->create_publisher<std_msgs::msg::Float32>("topic_float", 10);
 
     timer_ = this->create_wall_timer(
         std::chrono::seconds(1),
@@ -20,7 +20,7 @@ void MyPublisherNode::timer_callback()
     pub_int_->publish(msg_int);
 
     auto msg_str = std_msgs::msg::String();
-    msg_str.data = "Hello " + std::to_string(count_);
+    msg_str.data = "Hello from c++" + std::to_string(count_);
     pub_str_->publish(msg_str);
 
     auto msg_float = std_msgs::msg::Float32();
