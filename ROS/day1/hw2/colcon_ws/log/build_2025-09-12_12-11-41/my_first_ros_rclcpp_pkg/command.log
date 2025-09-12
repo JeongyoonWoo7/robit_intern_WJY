@@ -1,0 +1,4 @@
+Invoking command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+Invoked command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+Invoking command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg
+Invoked command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg

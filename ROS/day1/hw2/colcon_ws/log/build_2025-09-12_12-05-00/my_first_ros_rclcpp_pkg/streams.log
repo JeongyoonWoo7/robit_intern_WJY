@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.032s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[0.032s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[0.038s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/publisher_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_cpp_pkg/publisher_node.hpp: No such file or directory
+[0.038s]     1 | #include [01;31m[K"my_cpp_pkg/publisher_node.hpp"[m[K
+[0.038s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.039s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/subscriber_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_cpp_pkg/subscriber_node.hpp: No such file or directory
+[0.039s]     1 | #include [01;31m[K"my_cpp_pkg/subscriber_node.hpp"[m[K
+[0.039s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.039s] compilation terminated.
+[0.039s] compilation terminated.
+[0.039s] gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:79: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+[0.039s] gmake[2]: *** [CMakeFiles/subscriber_node.dir/build.make:79: CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o] Error 1
+[0.039s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/publisher_node.dir/all] Error 2
+[0.040s] gmake[1]: *** Waiting for unfinished jobs....
+[0.040s] gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/subscriber_node.dir/all] Error 2
+[0.040s] gmake: *** [Makefile:146: all] Error 2
+[0.041s] Invoked command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16

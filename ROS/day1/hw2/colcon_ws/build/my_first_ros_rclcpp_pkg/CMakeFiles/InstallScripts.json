@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

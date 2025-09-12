@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[0.039s] [ 75%] Built target subscriber_node
+[3.437s] [100%] [1m[32mLinking CXX executable publisher_node[0m
+[3.574s] [100%] Built target publisher_node
+[3.579s] Invoked command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[3.584s] Invoking command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg
+[3.586s] -- Install configuration: ""
+[3.586s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/publisher_node
+[3.588s] -- Set non-toolchain portion of runtime path of "/home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/publisher_node" to ""
+[3.588s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/subscriber_node
+[3.595s] -- Set non-toolchain portion of runtime path of "/home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/subscriber_node" to ""
+[3.595s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg
+[3.595s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg
+[3.595s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+[3.595s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+[3.595s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake
+[3.596s] -- Installing: /home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml
+[3.598s] Invoked command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg

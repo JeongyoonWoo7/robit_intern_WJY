@@ -1,0 +1,108 @@
+[0.009s] Invoking command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg
+[0.026s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.026s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.026s]   CMake.
+[0.026s] 
+[0.026s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.026s]   to tell CMake that the project requires at least <min> but has been updated
+[0.026s]   to work with policies introduced by <max> or earlier.
+[0.026s] 
+[0.026s] [0m
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.240s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.314s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.467s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.502s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.506s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.577s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.654s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.675s] -- Found FastRTPS: /opt/ros/humble/include
+[0.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.774s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.774s] -- Found Threads: TRUE
+[0.822s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.875s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.875s] -- Configured cppcheck include dirs: 
+[0.875s] -- Configured cppcheck exclude dirs and/or files: 
+[0.876s] -- Added test 'lint_cmake' to check CMake code style
+[0.876s] -- Added test 'uncrustify' to check C / C++ code style
+[0.876s] -- Configured uncrustify additional arguments: 
+[0.877s] -- Added test 'xmllint' to check XML markup files
+[0.878s] -- Configuring done (0.9s)
+[0.885s] -- Generating done (0.0s)
+[0.887s] -- Build files have been written to: /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg
+[0.895s] Invoked command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/jy/ros2/colcon_ws/install/my_first_ros_rclcpp_pkg
+[0.895s] Invoking command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.921s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o[0m
+[2.273s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.273s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.274s]                  from [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:2[m[K:
+[2.274s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:[m[K In constructor ‘[01m[KMyCppNode::MyCppNode()[m[K’:
+[2.274s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.274s]    12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+[2.274s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.274s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.274s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.274s]    12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+[2.274s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.274s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.274s]    12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+[2.274s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.274s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.275s]    12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+[2.275s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.275s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.275s]                  from [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:2[m[K:
+[2.275s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.275s]    12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+[2.275s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.275s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.275s]    12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+[2.275s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.276s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:[m[K At global scope:
+[2.276s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:26:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ does not name a type; did you mean ‘[01m[KMyCppNode[m[K’?
+[2.276s]    26 | [01;31m[KMyNode[m[K :: MyNode() : Node("mynode")
+[2.276s]       | [01;31m[K^~~~~~[m[K
+[2.276s]       | [32m[KMyCppNode[m[K
+[2.276s] [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:32:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ does not name a type; did you mean ‘[01m[KMyCppNode[m[K’?
+[2.277s]    32 | [01;31m[KMyNode[m[K::~MyNode()
+[2.277s]       | [01;31m[K^~~~~~[m[K
+[2.277s]       | [32m[KMyCppNode[m[K
+[2.509s] gmake[2]: *** [CMakeFiles/my_cpp_node.dir/build.make:79: CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o] Error 1
+[2.510s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/my_cpp_node.dir/all] Error 2
+[2.510s] gmake: *** [Makefile:146: all] Error 2
+[2.511s] Invoked command in '/home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg -- -j16 -l16

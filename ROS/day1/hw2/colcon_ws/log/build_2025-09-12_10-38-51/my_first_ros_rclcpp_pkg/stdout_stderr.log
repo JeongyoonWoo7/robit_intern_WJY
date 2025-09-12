@@ -1,0 +1,104 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- Found FastRTPS: /opt/ros/humble/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jy/ros2/colcon_ws/build/my_first_ros_rclcpp_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:2[m[K:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:[m[K In constructor ‘[01m[KMyCppNode::MyCppNode()[m[K’:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:2[m[K:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:[m[K At global scope:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:26:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ does not name a type; did you mean ‘[01m[KMyCppNode[m[K’?
+   26 | [01;31m[KMyNode[m[K :: MyNode() : Node("mynode")
+      | [01;31m[K^~~~~~[m[K
+      | [32m[KMyCppNode[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:32:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ does not name a type; did you mean ‘[01m[KMyCppNode[m[K’?
+   32 | [01;31m[KMyNode[m[K::~MyNode()
+      | [01;31m[K^~~~~~[m[K
+      | [32m[KMyCppNode[m[K
+gmake[2]: *** [CMakeFiles/my_cpp_node.dir/build.make:79: CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/my_cpp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

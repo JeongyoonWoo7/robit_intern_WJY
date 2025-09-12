@@ -1,0 +1,64 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:2[m[K:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:[m[K In constructor ‘[01m[KMyCppNode::MyCppNode()[m[K’:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(this->get_longer(), "Hello, ROS 2 C++ Node!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:2[m[K:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyCppNode[m[K’ has no member named ‘[01m[Kget_longer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   12 |         RCLCPP_INFO(this->[01;31m[Kget_longer[m[K(), "Hello, ROS 2 C++ Node!");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:[m[K At global scope:
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:26:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ does not name a type; did you mean ‘[01m[KMyCppNode[m[K’?
+   26 | [01;31m[KMyNode[m[K :: MyNode() : Node("mynode")
+      | [01;31m[K^~~~~~[m[K
+      | [32m[KMyCppNode[m[K
+[01m[K/home/jy/ros2/colcon_ws/src/my_first_ros_rclcpp_pkg/src/my_cpp_node.cpp:32:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ does not name a type; did you mean ‘[01m[KMyCppNode[m[K’?
+   32 | [01;31m[KMyNode[m[K::~MyNode()
+      | [01;31m[K^~~~~~[m[K
+      | [32m[KMyCppNode[m[K
+gmake[2]: *** [CMakeFiles/my_cpp_node.dir/build.make:79: CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/my_cpp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
