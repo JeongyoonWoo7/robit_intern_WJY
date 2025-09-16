@@ -1,0 +1,13 @@
+launch:
+  - node:
+      pkg: "robot_arm_gui"
+      exec: "robot_arm_gui"
+      name: "robot"
+      namespace: "turtlesim1"
+      param:
+        - name: "robot_arm.link_lengths"
+          value: [60, 120, 100]
+        - name: "robot_arm.angles"
+          value: [0, 32, 68]
+
+

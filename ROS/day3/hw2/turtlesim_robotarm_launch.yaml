@@ -1,0 +1,14 @@
+launch:
+  - node:
+      pkg: "robot_arm_gui"
+      exec: "robot_arm_gui"
+      name: "robot"
+      namespace: "turtlesim1"
+     
+
+  - node:
+      pkg: "turtlesim_drawer"
+      exec: "drawer"
+      name: "turtle"
+      namespace: "turtlesim2"
+
