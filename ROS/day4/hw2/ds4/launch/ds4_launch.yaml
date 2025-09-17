@@ -1,0 +1,11 @@
+launch:
+  - node:
+      pkg: joy
+      exec: joy_node
+      name: joy_node
+
+  - node:
+      pkg: ds4
+      exec: ds4
+      name: ds4
+

@@ -1,0 +1,14 @@
+launch:
+  - node:
+      pkg: "life_qos"
+      exec: "lifecycle_talker"
+      name: "talker"
+      
+     
+
+  - node:
+      pkg: "life_qos"
+      exec: "lifecycle_listener"
+      name: "listener"
+      
+
